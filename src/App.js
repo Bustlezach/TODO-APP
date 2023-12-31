@@ -40,28 +40,6 @@ function App() {
       </div>
     </BrowserRouter>
   );
-
-  // return (
-  //   <div>
-  //     <NavBar />
-  //     <div className="container-sm text-center">
-  //       <Home todos={todos} deleteTodo={ deleteTodo }/>
-  //       <AddTodo  addTodo={addTodo} />
-  //     </div>
-  //   </div>
-  // );
-
-  // return (
-  //   <BrowserRouter>
-  //     <div>
-  //       <NavBar />
-  //       <div className="container-sm text-center">
-  //         <Home todos={todos} deleteTodo={ deleteTodo }/>
-  //         <AddTodo  addTodo={addTodo} />
-  //       </div>
-  //     </div>
-  //   </BrowserRouter>
-  // );
 }
 
 export default App;
